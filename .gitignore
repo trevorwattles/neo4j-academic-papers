@@ -1,0 +1,11 @@
+# secrets
+.env
+# virtual environment
+.venv/
+# large dataset (~131 MB, exceeds GitHub's 100 MB file limit) - re-downloaded by the notebook
+metadata.csv
+# misc
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+movies.cypher

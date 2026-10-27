@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {
+      "name": "Kevin Bacon",
+      "label": "Person"
+    },
+    {
+      "name": "Apollo 13",
+      "label": "Movie"
+    },
+    {
+      "name": "Tom Hanks",
+      "label": "Person"
+    },
+    {
+      "name": "You've Got Mail",
+      "label": "Movie"
+    },
+    {
+      "name": "Nora Ephron",
+      "label": "Person"
+    }
+  ],
+  "rels": [
+    {
+      "type": "ACTED_IN",
+      "start": "Kevin Bacon",
+      "end": "Apollo 13"
+    },
+    {
+      "type": "ACTED_IN",
+      "start": "Tom Hanks",
+      "end": "Apollo 13"
+    },
+    {
+      "type": "ACTED_IN",
+      "start": "Tom Hanks",
+      "end": "You've Got Mail"
+    },
+    {
+      "type": "DIRECTED",
+      "start": "Nora Ephron",
+      "end": "You've Got Mail"
+    }
+  ],
+  "text": "(Kevin Bacon)-[:ACTED_IN]->(Apollo 13)<-[:ACTED_IN]-(Tom Hanks)-[:ACTED_IN]->(You've Got Mail)<-[:DIRECTED]-(Nora Ephron)",
+  "length": 4
+}

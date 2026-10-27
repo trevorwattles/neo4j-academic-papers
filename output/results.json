@@ -1,0 +1,59 @@
+{
+  "totalPapers": 100000,
+  "uniqueCsPapers": 5812,
+  "csCategoryMemberships": 7891,
+  "sumCsInDegree": 7891,
+  "papersInMultipleCsCategories": 1792,
+  "csPairs": [
+    {
+      "category1": "cs.DM",
+      "category2": "cs.DS",
+      "sharedPapers": 104
+    },
+    {
+      "category1": "cs.CC",
+      "category2": "cs.DM",
+      "sharedPapers": 70
+    },
+    {
+      "category1": "cs.CC",
+      "category2": "cs.DS",
+      "sharedPapers": 70
+    },
+    {
+      "category1": "cs.IT",
+      "category2": "cs.NI",
+      "sharedPapers": 58
+    },
+    {
+      "category1": "cs.DM",
+      "category2": "cs.IT",
+      "sharedPapers": 56
+    },
+    {
+      "category1": "cs.AI",
+      "category2": "cs.NE",
+      "sharedPapers": 56
+    },
+    {
+      "category1": "cs.CC",
+      "category2": "cs.LO",
+      "sharedPapers": 55
+    },
+    {
+      "category1": "cs.AI",
+      "category2": "cs.LG",
+      "sharedPapers": 52
+    },
+    {
+      "category1": "cs.DC",
+      "category2": "cs.NI",
+      "sharedPapers": 45
+    },
+    {
+      "category1": "cs.CR",
+      "category2": "cs.IT",
+      "sharedPapers": 43
+    }
+  ]
+}

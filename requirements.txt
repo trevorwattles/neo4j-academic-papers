@@ -1,0 +1,13 @@
+neo4j
+pandas
+matplotlib
+numpy
+tqdm
+python-dotenv
+jupyter
+nbconvert
+ipykernel
+reportlab
+networkx
+playwright
+pymupdf
